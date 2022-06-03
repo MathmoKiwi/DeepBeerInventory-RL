@@ -107,7 +107,7 @@ leadtimes_arg.add_argument('--ASInit3', type=int, default=0, help='the initial a
 leadtimes_arg.add_argument('--ASInit4', type=int, default=0, help='the initial arriving shipment of the agent')
 
 
-####################	DQN setting		####################	
+####################	DQN setting		#####################	
 DQN_arg = add_argument_group('DQN')
 DQN_arg.add_argument('--maxEpisodesTrain', type=int, default=60100, help='number of GAMES to be trained')
 DQN_arg.add_argument('--NoHiLayer', type=int, default=3, help='number of hidden layers')
