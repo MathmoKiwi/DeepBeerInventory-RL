@@ -1,3 +1,4 @@
+Note: don't use the latest tensflow! (and yet.... the older tensorflow is incompatible with latest CUDA, which causes issues too. Needs to be resolved one day)
 tensorflow==1.15
 matplotlib
 numpyencoder
